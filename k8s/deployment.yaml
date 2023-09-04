@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flarie-todo-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flarie-todo
+  template:
+    metadata:
+      labels:
+        app: flarie-todo
+    spec:
+      containers:
+        - name: flarie-todo-container
+          image: cypher404/flarie-todo:latest
+          ports:
+            - containerPort: 3000
