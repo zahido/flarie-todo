@@ -65,3 +65,10 @@ To run this dockerized application into a Kubernetes cluster, follow these steps
 1. Kubernetes Cluster: I have installed Minikube in a vm and deploy a cluster.
 2. Apply the Kubernetes manifests to your cluster: 'kubectl apply -f deployment.yaml' 'kubectl apply -f service.yaml'
 3. Verify that the application is running: 'kubectl get pods' 'kubectl get services'
+
+
+
+![flarie-todo](https://github.com/zahido/flarie-todo/assets/64963508/2e2e8d07-2d7d-4744-8b9e-272f7450772a)
+
+
+![K8s Dashboard](https://github.com/zahido/flarie-todo/assets/64963508/b83d23aa-a45c-48db-a556-fa394381ed28)
