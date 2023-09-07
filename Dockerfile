@@ -13,7 +13,7 @@ RUN yarn install
 # Copy the rest of the application code
 COPY . .
 
-# Expose a port (e.g., 3000) that your application will listen on
+# Expose a port that your application will listen on
 EXPOSE 3000
 
 # Define the command to start your application
